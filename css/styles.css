@@ -2,6 +2,7 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
+  color: #40514E;
 }
 
 h1 {
@@ -16,6 +17,7 @@ h2 {
   font-size: 2.5rem;
   color: #66BFBF;
   font-weight: normal;
+  padding-bottom: 10px;
 }
 
 h3 {
@@ -27,17 +29,16 @@ a {
   color: #11999E;
 }
 
-p {
-  color: #40514E;
-}
 
 hr {
-  color: #EAF6F6;
-  border-style: none;
-  border-top-style: dotted;
-  height: 30px;
-  border-top-width: 7.5px;
-  width: 5%;
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 75px auto;
+}
+
+p {
+  line-height: 2;
 }
 
 /************ Class Selectors *************/
@@ -47,12 +48,14 @@ hr {
   padding-top: 100px;
 }
 
-.middle-container {}
+.middle-container {
+  margin: 100px 0;
+}
 
 .bottom-container {
   background-color: #66BFBF;
   margin: 75px auto 0 auto;
-  padding: 50px;
+  padding: 50px 0 20px;
 }
 
 .pro {
@@ -63,23 +66,23 @@ hr {
   margin: 50px auto;
 }
 
+
 .skill-row {
   width: 50%;
   margin: 100px auto;
   text-align: left;
-  line-height: 2;
 }
 
 
 .top-cloud {
   position: absolute;
-  right: 300px;
-  top: 50px;
+  right: 450px;
+  top: 100px;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 300px;
+  left: 450px;
   bottom: 300px;
 }
 
@@ -96,7 +99,7 @@ hr {
 }
 
 .button {
-  margin: 100px auto;
+  margin: 60px auto;
 }
 
 .btn {
@@ -109,7 +112,7 @@ hr {
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
   border-radius: 8px;
-  font-family: Arial;
+  font-family: 'Montserrat', sans-serif;
   color: #ffffff;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
