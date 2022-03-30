@@ -27,6 +27,12 @@ h3 {
 
 a {
   color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
 }
 
 
@@ -131,4 +137,6 @@ p {
 
 .copyright-text {
   color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
 }
